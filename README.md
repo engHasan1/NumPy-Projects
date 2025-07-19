@@ -1,62 +1,127 @@
-# 🧠 NumPy Projects using Python
 
-This repository contains **three educational projects** implemented using the **NumPy** library in Python. These projects are designed to reinforce practical understanding of statistical and data analysis concepts using NumPy tools.
+# 🎓 NumPy Projects Collection
+
+Welcome to the **NumPy Projects Collection** repository!
+
+This repository contains several educational projects built after learning the NumPy library. These mini-projects apply various NumPy concepts such as random generation, basic statistics, array manipulation, and simple image processing.
 
 ---
 
 ## 📁 Project Overview
 
-### 1️⃣ Dice Roll Simulation
-
-🎲 This program simulates rolling a 6-sided dice 1000 times and calculates how many times each number appears along with its percentage.
-
-**Features:**
-- Generates 1000 random dice rolls
-- Counts occurrences of numbers from 1 to 6
-- Calculates the percentage for each number
-- Identifies the most and least frequent numbers
-
-📂 File: `dice_simulation.py`
+### 🎲 1. Dice Simulation
+- **Purpose:** Simulate rolling a six-sided die 1000 times and analyze the results.
+- **Features:**
+  - Counts of each number rolled (1 through 6)
+  - Percentage calculation for each outcome
+  - Identifies the most and least frequently rolled numbers
+- **Libraries:** NumPy
 
 ---
 
-### 2️⃣ Student Grade Analysis
-
-📚 This program analyzes grades of a group of students across multiple subjects. It calculates each student’s average, determines the top student, and finds the easiest and hardest subject based on averages.
-
-**Features:**
-- Input number of students and subjects
-- Input student names, subject names, and grades
-- Calculate each student’s average
-- Identify the top-performing student
-- Calculate subject-wise averages
-- Identify the easiest and hardest subject
-
-📂 File: `student_grade_analysis.py`
+### 📊 2. Statistical Calculator
+- **Purpose:** A command-line tool to compute common statistical metrics.
+- **Available Calculations:**
+  - Mean
+  - Median
+  - Mode
+  - Standard Deviation
+  - Variance
+  - Maximum and Minimum values
+- **How It Works:** The user inputs numbers via the terminal and selects the desired operation.
+- **Libraries:** NumPy
 
 ---
 
-### 3️⃣ Statistical Calculator
-
-🧮 An interactive program that allows users to calculate various statistical measures for a set of values.
-
-**Available functions:**
-- Mean
-- Median
-- Mode
-- Standard Deviation
-- Variance
-- Maximum and Minimum values
-
-📂 File: `statistical_calculator.py`
+### 🧑‍🎓 3. Student Grade Analysis
+- **Purpose:** Collect and analyze grades of students across multiple subjects.
+- **Features:**
+  - Input multiple students and class names
+  - Calculate average grade per student
+  - Identify the best-performing student
+  - Determine the hardest and easiest subject based on average scores
+- **Libraries:** NumPy
 
 ---
 
-## 📦 Requirements
+### 🖼️ 4. Image Processor
+- **Purpose:** Perform basic operations on a grayscale image using NumPy.
+- **Image Manipulations:**
+  - Invert image colors
+  - Brighten image
+  - Darken image
+  - Resize image
+  - Crop image (zero out part of it)
+- **Display:** All modified images are visualized using `matplotlib`.
+- **Libraries:** NumPy, Matplotlib
 
-- Python 3.x  
-- NumPy library
+---
 
-📥 To install NumPy:
+## 🛠️ Requirements
+
+Make sure you have the following Python libraries installed:
+
 ```bash
-pip install numpy
+pip install numpy matplotlib
+```
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/engHasan1/NumPy-Projects.git
+   cd NumPy-Projects
+   ```
+
+2. Run any project:
+   ```bash
+   python project_filename.py
+   ```
+
+   Example:
+   ```bash
+   python DiceSimulation.py
+   ```
+
+---
+
+## 🎯 Purpose of These Projects
+
+These projects are part of my learning journey in data science and artificial intelligence. They helped me:
+
+- Apply NumPy concepts in practical scenarios.
+- Understand statistical operations in-depth.
+- Explore image array manipulation using NumPy.
+- Strengthen my Python programming skills.
+
+---
+
+## 🚧 Next Steps
+
+I'm planning to continue learning:
+- Pandas and Matplotlib
+- Data Analysis Techniques
+- Machine Learning Fundamentals
+
+---
+
+## 👤 Author
+
+**Hasan Elreceb**  
+Computer Engineering Student & AI/DS Enthusiast
+
+---
+
+## 📬 Contact
+
+- 📧 Email: elrecephasan@gmail.com
+- 💼 LinkedIn: [https://www.linkedin.com/in/hasan-elreceb/](https://www.linkedin.com/in/hasan-elreceb/)
+
+
+---
+
+## 📄 License
+
+This repository is open-source and free for educational use.
